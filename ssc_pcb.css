@@ -1,0 +1,115 @@
+body{
+  background-color:black;
+}
+
+.ssc_pcb{
+  height: auto;
+  width: 100%;
+}
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: ;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16%;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius:12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: MediumSeaGreen;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+.back_icon a{
+  color:MediumSeaGreen;
+  font-size:40px;
+}
+
+.next_icon a{
+  float:right;
+  color:MediumSeaGreen;
+  font-size:40px;
+  
+}
+
+.text{
+  background-color:black;
+  color:hotpink;
+  text-align:center;
+  font-size:30px;
+  font-family: "Audiowide", sans-serif;
+
+  
+}
+
+.image{
+  height: auto;
+  width: 100%;
+}
+
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background-color: red;
+  color:white;
+  padding: 7px 15px;
+  margin-bottom:20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius:15px;
+  
+  
+}
+
+
+.btn:hover{
+  background-color:dodgerblue;
+}
+
+#image{
+  color:white;
+  text-align:center;
+  
+}
+
+.class{
+  font-size:45px;
+  font-family: 'Carter One';
+  letter-spacing: 0.4rem; 
+  color:DeepSkyBlue;
+}
+.chapter{
+  font-size:35px;
+  font-family: 'Berkshire Swash';
+  letter-spacing: 0.2rem; 
+  color:LawnGreen;
+}
+.time{
+  font-size:25px;
+  font-family: 'Black Ops One';
+  letter-spacing: 0.2rem;
+  color:Gold;
+}
+.marks{
+  font-size:25px;
+  font-family: 'Bungee Shade';
+  letter-spacing: 0.2rem;
+  color:Orange;
+}

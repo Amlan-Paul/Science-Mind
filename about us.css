@@ -1,0 +1,220 @@
+body{
+  background-image:url(about_us_background.gif);
+  
+}
+
+
+.auc {
+  height: auto;
+  width: 100%;
+}
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: ;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16%;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius:12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: MediumSeaGreen;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+.suf a{
+  color:BlueViolet;
+  font-size:40px;
+}
+
+.logf a{
+  float:right;
+  color:MediumSeaGreen;
+  font-size:40px;
+  
+}
+
+
+#smp{
+  margin-left:5px;
+  
+  
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background-color: red;
+  color:white;
+  padding: 7px 15px;
+  margin-bottom:20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius:15px;
+  
+  
+}
+
+
+.btn:hover{
+  background-color:dodgerblue;
+}
+
+
+
+
+.text{
+  color:white;
+}
+
+.color{
+  color:CornflowerBlue;
+}
+
+.text_color{
+  color:Chartreuse;
+}
+
+.text_color:hover{
+  color:Cyan;
+}
+
+
+
+
+.group_icon a{
+  font-size:120px;
+  color:MediumSeaGreen;
+  
+  
+}
+
+.group_icon{
+  text-align:center;
+}
+
+.page_icon a{
+  font-size:120px;
+  color:#0084ff;
+}
+
+.page_icon{
+  text-align:center;
+}
+
+.youtube_icon a{
+  font-size:120px;
+  color:#E62117;
+}
+
+.youtube_icon{
+  text-align: center;
+}
+
+.ins_icon a{
+  font-size:120px;
+  color:red;
+}
+
+.ins_icon{
+  text-align:center;
+}
+
+#text {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.text{
+  color: hotpink;
+}
+
+.apc{
+  height: auto;
+  width: 100%;
+  border-radius: 100%;
+}
+
+
+#text_apc{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Sofia", sans-serif;
+}
+
+.text_apc {
+  color: salmon;
+}
+
+
+.info_color{
+  color: MediumAquaMarine;
+  font-size: 25px;
+  font-family: 'Aladin';
+  letter-spacing: 0.13rem;
+}
+
+#details{
+  font-family: 'Merienda One' ;
+  text-align: center;
+  letter-spacing: 0.13rem;
+}
+
+
+.details1_color{
+  color: Orchid;
+}
+
+
+.details2_color{
+  color: gold;
+}
+
+.icon-bar {
+  width: 100%;
+  overflow: auto;
+}
+
+.social_icon a {
+  float: left;
+  width: 24%;
+  text-align: center;
+  padding: 5px 0px;
+  transition: all 0.3s ease;
+  font-size: 45px;
+}
+
+.facebook{
+  color: dodgerblue;
+}
+
+.twitter{
+  color: dodgerblue;
+}
+
+.instagram{
+  color: red;
+}
+
+.youtube{
+  color: red;
+}
+
