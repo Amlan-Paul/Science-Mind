@@ -68,54 +68,137 @@ body {margin:0;}
 }
 
 
-.btn {
-  display: inline-block;
-  width: 100%;
-  border: none;
-  background-color: red;
-  color:white;
-  padding: 7px 15px;
-  margin-bottom:20px;
-  font-size: 20px;
-  cursor: pointer;
-  text-align: center;
-  border-radius:15px;
-  
-  
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400, 500, 600, 700, 800,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins", sans-serif;
+}
+
+#card{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background:black;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+flex-wrap: wrap;
+padding: 400;
+}
+
+.container .card{
+position: relative;
+width: 320px;
+height: 448px;
+box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+inset -5px 5px 5px rgba(255, 255, 255, 0.5),
+5px 5px 5px rgba(0, 0, 0, 0.05),
+-5px 5px 5px rgba(255, 255, 255, 0.5);
+border-radius: 15px;
+margin: 30px;
+}
+
+.container .card .box{
+position: absolute;
+top: 20px;
+Left: 20px;
+right: 20px;
+bottom: 20px;
+background: black;
+box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
 }
 
 
-.btn:hover{
-  background-color:dodgerblue;
+.container .card:hover .box{
+ transform:translateY(-50px);
+ box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+ background: linear-gradient(45deg, #b95ce4,#4f29cc);
 }
 
-#image{
-  color:white;
-  text-align:center;
-  
+
+.container .card .box .content{
+padding: 20px;
+text-align: center;
 }
 
-.class{
-  font-size:25px;
-  font-family: 'Carter One';
-  letter-spacing: 0.4rem; 
-  color:DeepSkyBlue;
+.container .card .box .content h2{
+position: absolute;
+top:-10px;
+right: 30px;
+font-size: 8em;
+color: rgba(0, 0, 0, 0.02);
+transition: 0.5s;
+pointer-events: none;
 }
-.chapter{
-  font-size:35px;
-  font-family: 'Berkshire Swash';
-  letter-spacing: 0.2rem; 
-  color:LawnGreen;
+
+.container .card:hover .box .content h2
+{
+color: rgba(0,0,0,0.05);
 }
-.time{
-  font-size:25px;
-  font-family: 'Black Ops One';
-  letter-spacing: 0.2rem;
-  color:Gold;
+
+.container .card .box .content h3{
+font-size: 27px;
+font-family: "Lobster", serif;
+letter-spacing: 0.2rem;
+background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+-webkit-background-clip: text; 
+-webkit-text-fill-color: transparent;
+z-index: 1;
+transition: 0.5s;
+
 }
-.marks{
-  font-size:25px;
-  font-family: 'Bungee Shade';
-  letter-spacing: 0.2rem;
-  color:Orange;
+
+
+
+.container .card .box .content a{
+position: relative;
+display: inline-block; 
+background:#03a9f4;
+padding: 15px 60px;
+margin-top: 15px;
+border-radius: 20px;
+color: #fff;
+text-decoration: none;
+font-weight: 400;
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+
+.container .card:hover .box .content a{
+  background:#ff568f;
+}
+.container .card .box .content p{
+font-size: 25px;
+font-family: 'Lobster', cursive;
+font-weight: 300;
+color: pink;
+z-index: 1;
+transition: 0.5;
+}
+
+.container .card:hover .box .content h3, .container .card:hover .box .content p{ color:#fff;
+}
+
+
+
+
+
