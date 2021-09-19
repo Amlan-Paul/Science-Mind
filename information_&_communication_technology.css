@@ -147,7 +147,7 @@ z-index: 2;
 }
 
 .container .card.active .more{
-  background: linear-gradient(235deg, #14ffe9, #ffeb3b, #ff00e0);
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
