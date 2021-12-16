@@ -10,6 +10,8 @@
     <!--custom css-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./extrafile/new-year.css">
+    <link rel="stylesheet" href="./extrafile/victory-day.css">
+    <link rel="stylesheet" href="./extrafile/clock.css">
     
     <!--Clock Header Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +57,17 @@
     
     
     
-    <div id="new-year">
+  <div class="size">
+  <span class="neon_text" data-text="মহান বিজয় দিবস ২০২১">মহান বিজয় দিবস ২০২১</span>
+  </div>
+  <br>
+    
+    
+    
+    
+    
+    
+    <!--><div id="new-year">
  
   <div class="container">
   <h1 id="headline">New Year Coming</h1>
@@ -90,7 +102,7 @@
 
 <br>
 <hr>
-<br>
+<br><-->
     
     
     
@@ -113,48 +125,11 @@
       </div>
     </div>
   </div>
+  
     <!--digital clock end-->
 
-    <script type="text/javascript">
-    function updateClock(){
-      var now = new Date();
-      var dname = now.getDay(),
-          mo = now.getMonth(),
-          dnum = now.getDate(),
-          yr = now.getFullYear(),
-          hou = now.getHours(),
-          min = now.getMinutes(),
-          sec = now.getSeconds(),
-          pe = "AM";
-
-          if(hou >= 12){
-            pe = "PM";
-          }
-          if(hou == 0){
-            hou = 12;
-          }
-          if(hou > 12){
-            hou = hou - 12;
-          }
-
-          Number.prototype.pad = function(digits){
-            for(var n = this.toString(); n.length < digits; n = 0 + n);
-            return n;
-          }
-
-          var months = ["January", "February", "March", "April", "May", "June", "July", "Augest", "September", "October", "November", "December"];
-          var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-          var ids = ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"];
-          var values = [week[dname], months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
-          for(var i = 0; i < ids.length; i++)
-          document.getElementById(ids[i]).firstChild.nodeValue = values[i];
-    }
-
-    function initClock(){
-      updateClock();
-      window.setInterval("updateClock()", 1);
-    }
-    </script>
+    
+    
     <br>
 
     
@@ -246,6 +221,7 @@
 <!--main js-->
 <script src="js/index.js"></script>
 <script src="./extrafile/new-year.js"></script>
+<script src="./extrafile/victory-day.js"></script>
 
 
 
