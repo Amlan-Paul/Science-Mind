@@ -41,12 +41,17 @@ body{
   letter-spacing: 3px;
 }
 
+#minutes, #seconds{
+  font-size: 50px;
+}
+
 .time{
   font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .time span:not(:last-child){
   position: relative;
