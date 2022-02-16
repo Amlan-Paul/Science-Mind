@@ -301,7 +301,8 @@ body {margin:0;}
   display: grid;
   height: 100%;
   place-items: center;
-  background: #17a2b8;
+  /*background: #17a2b8;*/
+  background: black;
 }
 ::selection{
   background: rgba(23,162,184,0.3);
