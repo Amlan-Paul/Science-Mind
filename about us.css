@@ -634,7 +634,6 @@ body {margin:0;}
   background: #181818;
   width: 100%;
   padding: 8px 0px;
-  padding-top: 8px;
   text-align: center;
   color: #999;
 }
@@ -642,7 +641,6 @@ body {margin:0;}
 .text-color{
   color: red;
 }
-
 
 
 
