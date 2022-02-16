@@ -629,3 +629,20 @@ body {margin:0;}
 
 
 
+/*Copyright Text CSS*/
+.copyright-text{
+  background: #181818;
+  width: 100%;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+
+.text-color{
+  color: red;
+}
+
+
+
+
+
