@@ -14,8 +14,8 @@
 }
 #containerloader {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 265px;
+  height: 265px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
