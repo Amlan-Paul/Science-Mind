@@ -31,6 +31,12 @@
 	font-family: sans-serif;
 	text-align: center;
 }
+
+#company_pic{
+  height: 90px;
+  width: 90px;
+}
+
 .company_name {
   color: red;
   font-weight: 500;
