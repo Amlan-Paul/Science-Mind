@@ -1,3 +1,4 @@
+window.onload="initClock()"
 function updateClock(){
       var now = new Date();
       var dname = now.getDay(),
