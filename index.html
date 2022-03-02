@@ -341,7 +341,15 @@ class="animate-bottom">
 
 
 <!--Notification Process Js-->
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "9b204a44-63be-46ea-a4c8-d2d256db8c2d",
+    });
+  });
+</script>
 <!--Notification Process Js End-->
  
 
