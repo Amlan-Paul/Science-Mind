@@ -340,17 +340,6 @@ class="animate-bottom">
 <!-- Chat Pugin End-->
 
 
-<!--Notification Process Js-->
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "9b204a44-63be-46ea-a4c8-d2d256db8c2d",
-    });
-  });
-</script>
-<!--Notification Process Js End-->
  
 
 </div>
@@ -366,7 +355,19 @@ class="animate-bottom">
 <script src="./extrafile/clock02.js"></script>
 <!--Pre Loading Js-->
 <script src="./extrafile/preloader.js"></script>
-
+  
+  
+<!--Notification Process Js-->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "9b204a44-63be-46ea-a4c8-d2d256db8c2d",
+    });
+  });
+</script>
+<!--Notification Process Js End-->
 
   </body>
 
