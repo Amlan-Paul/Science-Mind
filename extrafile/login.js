@@ -1,18 +1,18 @@
 var objPeople = [
 	{ // Object @ Admin index Start...
 		username: "amlan127612@gmail.com",
-		password: "12345"
+		password: "*smadmin"
 	},
 	  //Object @ Admin index End...
 	  
 	  
 	{ // Object Member @ 1 index
-		username: "none",
-		password: "none"
+		username: "sciencemind2020@gmail.com",
+		password: "*smwebsite#"
 	},
 	{ // Object Member @ 2 index
-		username: "none",
-		password: "none"
+		username: "sciencemind02@gmail.com",
+		password: "*smwebsite#"
 	}
 
 ]
