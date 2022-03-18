@@ -1,7 +1,7 @@
 var objPeople = [
 	{ // Object @ Admin index Start...
 		username: "amlan127612@gmail.com",
-		password: "*smadmin"
+		password: "*smadmin#"
 	},
 	  //Object @ Admin index End...
 	  
