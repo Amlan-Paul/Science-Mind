@@ -162,13 +162,13 @@ form .signup-link{
   margin-top: 20px;
   text-align: center;
 }
-form .pass-link a,
-form .signup-link a{
+form .pass-link .link,
+form .signup-link .link{
   color: #4158d0;
   text-decoration: none;
 }
-form .pass-link a:hover,
-form .signup-link a:hover{
+form .pass-link .link:hover,
+form .signup-link .link:hover{
   text-decoration: underline;
 }
 
