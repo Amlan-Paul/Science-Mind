@@ -13,7 +13,12 @@ var objPeople = [
 	{ // Object Member @ 2 index
 		username: "sciencemind02@gmail.com",
 		password: "*smwebsite#"
-	}
+	},
+	{ // Object Member @ 3 index
+		  username: "joydeb2002cox@gmail.com",
+		  password: "1234"
+		}
+	
 
 ]
 function getInfo() {
