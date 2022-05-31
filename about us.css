@@ -663,13 +663,13 @@ body{
   color: #fff;
   background: #ff7979;
 }
-.wrapper{
+.wrapper_about{
   max-width: 1080px;
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
 }
-.wrapper .center-line{
+.wrapper_about .center-line{
   position: absolute;
   height: 100%;
   width: 4px;
@@ -678,23 +678,23 @@ body{
   top: 20px;
   transform: translateX(-50%);
 }
-.wrapper .row{
+.wrapper_about .row{
   display: flex;
 }
-.wrapper .row-1{
+.wrapper_about .row-1{
   justify-content: flex-start;
 }
-.wrapper .row-2{
+.wrapper_about .row-2{
   justify-content: flex-end;
 }
-.wrapper .row section{
+.wrapper_about .row section{
   background: #fff;
   border-radius: 10px;
   width: calc(50% - 40px);
   padding: 20px;
   position: relative;
 }
-.wrapper .row section::before{
+.wrapper_about .row section::before{
   position: absolute;
   content: "";
   height: 15px;
@@ -769,10 +769,10 @@ body{
   .wrapper .center-line{
     left: 40px;
   }
-  .wrapper .row{
+  .wrapper_about .row{
     margin: 30px 0 3px 60px;
   }
-  .wrapper .row section{
+  .wrapper_about .row section{
     width: 100%;
   }
   .row-1 section::before{
@@ -783,12 +783,12 @@ body{
   }
 }
 @media(max-width: 440px){
-  .wrapper .center-line,
+  .wrapper_about .center-line,
   .row section::before,
   .row section .icon{
     display: none;
   }
-  .wrapper .row{
+  .wrapper_about .row{
     margin: 10px 0;
   }
 }
