@@ -373,10 +373,30 @@ s0.parentNode.insertBefore(s1,s0);
   
   
 <!--Notification Process Js-->
-!
+
 <!--Notification Process Js End-->
 
 
+
+<script>
+    // shortcut keys that will be disabled
+const disabledKeys = ["c", "C", "x", "J", "u", "I", "view-source:"];
+const showAlert = e => {
+  e.preventDefault(); // prevent default behavior
+  return alert("This feature is restricted!");
+}
+
+// call showAlert on mouse right-click 
+document.addEventListener("contextmenu", showAlert);
+document.addEventListener("keydown", e => {
+
+      // call showAlert, if the pressed key is F12 or matched to keys
+
+      if((e.ctrlkey && disabledKeys.includes(e.key)) || e.key === "F12") {
+        showAlert(e);
+      }
+});
+</script>
 
   </body>
 
